@@ -1,10 +1,9 @@
 #include <stdio.h>
 #define MAXSIZE 100
 typedef struct va{
-    char data[MAXSIZE];
+    int data[MAXSIZE];
     int length;
 }va;
-
 int main(void){
     struct va list;
     int i, op;
